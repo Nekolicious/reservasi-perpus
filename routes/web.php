@@ -22,5 +22,7 @@ Route::get('tiket', function () {
     return view('tiket');
 });
 
+Route::view('/about','about')->name('about');
+
 Route::post('home/reserve', [tiketController::class, 'reserve'])->name('reserve');
 Route::post('cek', [tiketController::class, 'cek'])->name('cek');

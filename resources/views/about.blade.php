@@ -85,8 +85,8 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="{{ route('about') }}">About</a></li>
+                    <li class="nav-item"><a class="nav-link" aria-current="page" href="/">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#!">About</a></li>
                 </ul>
             </div>
         </div>
@@ -96,41 +96,20 @@
         <div class="container my-5">
             <div class="row justify-content-center">
                 <div class="col-lg-6 text-center">
-                    <h2>Tiket Anda</h2>
-                    <table class="tg mx-auto" style="table-layout: fixed; width: 322px">
-                        <colgroup>
-                            <col style="width: 50px">
-                            <col style="width: 272px">
-                        </colgroup>
-                        <thead>
-                            <tr>
-                                <th class="tg-amwm" colspan="2">Tiket Reservasi Perpustakaan CERMAN UWU</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td class="tg-baqh">Kode</td>
-                                <td class="tg-af47">{{ $data['kode'] }}</td>
-                            </tr>
-                            <tr>
-                                <td class="tg-baqh">NIM</td>
-                                <td class="tg-af47">{{ $data['nim'] }}</td>
-                            </tr>
-                            <tr>
-                                <td class="tg-baqh">Nama</td>
-                                <td class="tg-af47">{{ $data['nama'] }}</td>
-                            </tr>
-                            <tr>
-                                <td class="tg-baqh">Hari</td>
-                                <td class="tg-af47">{{ $data['hari'] }}</td>
-                            </tr>
-                            <tr>
-                                <td class="tg-baqh">Sesi</td>
-                                <td class="tg-af47">{{ $data['sesi'] }}</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <a class="btn btn-primary my-2" href="/">Kembali</a>
+                    <h1>About</h1>
+                    <br>
+                    <img style="max-width: 50%; height:auto;" src="https://fisip.uinsgd.ac.id/wp-content/uploads/2020/07/logo-uin-1.png" alt="">
+                    <br><br>
+                    <p>
+                        Aplikasi web ini ditujukan untuk memenuhi tugas UAS Pemrograman Aplikasi Web kami,
+                        Kelompok 2 PAW Kelas C, Teknik Informatika Angkatan 2019, UIN Sunan Gunung Djati.
+                        <br><br>
+                        Adapun anggotanya yaitu :
+                        <br>
+                        Sabili Haq Rafli Suparyadi - 1197050123
+                        <br>
+                        Yunita Minarni - 1197050133
+                    </p>
                 </div>
             </div>
         </div>
