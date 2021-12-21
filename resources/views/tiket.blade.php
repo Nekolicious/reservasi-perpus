@@ -10,9 +10,9 @@
     <!-- Favicon-->
     <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
     <!-- Core theme CSS (includes Bootstrap)-->
-    <link rel="stylesheet" href="{{ asset('css/styles.css') }}" />
-    <script src="{{ asset('js/jquery.js') }}"></script>
-    <script src="{{ asset('js/selection.js') }}"></script>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/jquery.js"></script>
+    <script src="js/selection.js"></script>
     <style type="text/css">
         .tg {
             border-collapse: collapse;
