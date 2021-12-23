@@ -102,7 +102,7 @@
                     <br><br>
                     <p>
                         Aplikasi web ini ditujukan untuk memenuhi tugas UAS Pemrograman Aplikasi Web kami,
-                        Kelompok 5 PAW Kelas C, Teknik Informatika Angkatan 2019, UIN Sunan Gunung Djati.
+                        Kelompok 3 PAW Kelas C, Teknik Informatika Angkatan 2019, UIN Sunan Gunung Djati.
                         <br><br>
                         Adapun anggotanya yaitu :
                         <br>
@@ -117,7 +117,7 @@
     <!-- Footer-->
     <footer class="py-5 bg-dark">
         <div class="container">
-            <p class="m-0 text-center text-white">Copyright &copy; Kelompok 5 PAW 2021</p>
+            <p class="m-0 text-center text-white">Copyright &copy; Kelompok 3 PAW 2021</p>
         </div>
     </footer>
     <!-- Bootstrap core JS-->
